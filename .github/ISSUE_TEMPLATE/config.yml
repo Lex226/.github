@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Конституция репозиториев (github-playbook)
+    url: https://github.com/Lex226/github-playbook/blob/main/standards/00-constitution.md
+    about: Общие правила ведения репозиториев — обязательны для всех проектов
+  - name: gh CLI cheatsheet
+    url: https://github.com/Lex226/github-playbook/blob/main/docs/github/cli-gh-cheatsheet.md
+    about: Практические команды GitHub CLI
