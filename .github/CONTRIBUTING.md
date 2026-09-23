@@ -4,13 +4,7 @@
 
 ## Источник правил
 
-Полная конституция и стандарты — в [github-playbook](https://github.com/Lex226/github-playbook):
-
-- [`standards/00-constitution.md`](https://github.com/Lex226/github-playbook/blob/main/standards/00-constitution.md) — общие правила ведения любого репозитория (GitHub как источник планирования, session-снапшоты, ADR, статусная модель, labels, аудиты).
-- [`standards/labels.json`](https://github.com/Lex226/github-playbook/blob/main/standards/labels.json) — единый набор меток.
-- [`docs/github/`](https://github.com/Lex226/github-playbook/tree/main/docs/github) — практический cheatsheet по GitHub CLI, Issues, Labels, Milestones.
-
-Этот файл (`.github/CONTRIBUTING.md`) применяется по умолчанию ко всем репозиториям без своего `CONTRIBUTING.md` — не дублирует содержимое `github-playbook`, только ссылается на него.
+Полные стандарты (конституция репозиториев, единый набор labels, cheatsheet по GitHub CLI) ведутся в приватном репозитории. Этот файл применяется по умолчанию ко всем репозиториям без своего `CONTRIBUTING.md` и содержит только краткую выжимку.
 
 ## Быстрая памятка
 
@@ -18,8 +12,8 @@
 2. Спорные решения — фиксировать через ADR, а не молча в коде/документах.
 3. Задачи и находки — через GitHub Issues, с метками `stage:*` и `priority:*` из единого набора.
 4. Заканчивать сессию — session-снапшотом (`sessions/` или `session-log/`).
-5. PR — использовать шаблон [`.github/pull_request_template.md`](pull_request_template.md).
+5. PR — использовать [шаблон pull request](https://github.com/Lex226/.github/blob/main/.github/pull_request_template.md).
 
 ## Шаблон нового репозитория
 
-Для нового проекта — использовать [1c-repo-template](https://github.com/Lex226/1c-repo-template) ("Use this template" на GitHub), а не создавать структуру с нуля.
+Новые проекты создаются из общего шаблона репозитория (ADR, session-снапшоты, CI, единые labels), а не с нуля. Шаблон ведётся в приватном репозитории.
